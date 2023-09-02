@@ -1,0 +1,141 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.bg-img{
+background-image: url('./background/green.jpg');
+background-color: #cccccc;
+height: 150vh;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+}
+
+.div-bar{
+  height: 80px;
+  /* background-color: lightblue; */
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.logo-section{
+  /* background-color: lightgoldenrodyellow; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px
+}
+
+.logo{
+  cursor: pointer;
+  font-size: 25px;
+  color: rgb(255, 255, 255);
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+}
+.categories-section{
+  /* background-color: lightseagreen; */
+  cursor: pointer;
+  margin-left: 40px;
+  max-width: 500px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex: 1;
+  justify-content: space-between;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  /* font-weight: bold; */
+}
+
+.categories-section p{
+  transition: 0.15s;
+}
+
+.categories-section p:hover{
+  /* border:  2px solid white;
+  border-radius: 5px;
+  color: rgb(255, 255, 255); 
+  /* padding: 5px 5px; */
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* .categories-section p:hover{
+  margin-top:50px;
+  font-size: 30px;
+  font-weight: bold;
+} */
+
+.cart-section{
+  /* background-color: lightpink; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 300px;
+}
+
+.layout{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  margin-right: 50px;
+  height: 45px;
+  width: 400px;
+  border-radius: 50px;
+}
+
+.cart-section img{
+  height: 25px;
+  margin: 20px;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.cart-section img:hover{
+  height: 35px;
+}
+
+.heading{
+  margin-top:300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 80px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  margin-bottom: 0;
+}
+
+.explore-btn{
+  padding: 8px 10px;
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* border-radius: 5px; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+/* cards */
+.cards-container{
+/* background-color: #cccccc; */
+display: grid;
+grid-template-columns: 1fr 1fr 1fr;
+column-gap: 200px;
+margin-top: 50px;
+}
+
+.cards{
+  height: 200px;
+  width: 200px;
+  margin-left: 80px;
+  background-color: white;
+}
